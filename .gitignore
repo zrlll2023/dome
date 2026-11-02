@@ -1,0 +1,65 @@
+HELP.md
+
+### Local documentation (not published to GitHub) ###
+/docs/
+
+### Local configuration and secrets ###
+.env
+.env.*
+!.env.example
+!.env.template
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+**/application-*.local.properties
+**/application-*.local.yml
+**/application-*.local.yaml
+
+### Logs and JVM diagnostic output ###
+*.log
+/logs/
+*.hprof
+hs_err_pid*
+replay_pid*
+
+### Operating system and editor temporary files ###
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+### Build output ###
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/

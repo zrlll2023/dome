@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: RLmall
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  datasource:
+    url: jdbc:mysql://localhost:3306/rl_mall?serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+
+logging:
+  level:
+    # 本地调试：显示用户模块的 DEBUG 日志，包括模拟验证码。
+    com.zrl.rlmall.user: DEBUG
